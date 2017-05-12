@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.elysewarren.takehomeassignment08_elysew.MainActivity">
+
+
+    <EditText
+        android:id="@+id/title_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Title"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:onClick="set"
+        android:text="SET TITLE" />
+
+    <EditText
+        android:id="@+id/student_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Student Name"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/student_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Age"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/my_student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are they my student?" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:onClick="add"
+        android:text="ADD STUDENT" />
+
+</LinearLayout>
